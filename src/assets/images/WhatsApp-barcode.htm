@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://web.whatsapp.com/ -->
+<html class="js serviceworker adownload cssanimations csstransitions webp webp-alpha webp-animation webp-lossless" dir="LTR" loc="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WhatsApp</title>
+<meta name="viewport" content="width=device-width">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:url" content="https://web.whatsapp.com/">
+<meta name="og:title" content="WhatsApp Web">
+<meta name="og:image" content="https://www.whatsapp.com/img/whatsapp-promo.png">
+
+<link id="favicon" rel="shortcut icon" href="https://web.whatsapp.com/img/c5088e888c97ad440a61d247596f88e5.png" type="image/png">
+<link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png">
+
+<link rel="stylesheet" href="./WhatsApp-barcode_files/cssm_9966398e9308c90350244163f673ce74.css">
+
+<style>
+html, body, #app {
+height: 100%;
+width: 100%;
+overflow: hidden;
+padding: 0;
+margin: 0;
+}
+
+#app {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+#startup, #initial_startup {
+width: 100%;
+height: 100%;
+position: fixed;
+background-color: #f2f2f2;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+
+display: flex;
+align-items: center;
+justify-content: center;
+display: -webkit-box;
+display: -webkit-flex;
+-webkit-align-items: center;
+-webkit-justify-content: center;
+flex-direction: column;
+-webkit-flex-direction: column;
+}
+
+.spinner-container {
+-webkit-animation: rotate 2s linear infinite;
+animation: rotate 2s linear infinite;
+z-index: 2;
+}
+
+.spinner-path {
+stroke-dasharray: 1,150; 
+stroke-dashoffset: 0;
+stroke: #acb9bf;
+stroke-linecap: round;
+-webkit-animation: dash 1.5s ease-in-out infinite;
+animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes rotate{
+100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+@-webkit-keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+
+.progress-container {
+width: 360px;
+position: fixed;
+padding-top: 120px;
+top: 50%;
+left: 50%;
+margin-left: -180px;
+}
+
+progress {
+-webkit-appearance: none;
+appearance: none;
+width: 100%;
+height: 3px;
+border: none;
+margin: 0;
+color: #02d1a4;
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-bar {
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-value {
+background-color: #02d1a4;
+}
+
+progress[value]::-moz-progress-bar {
+background-color: #02d1a4;
+}
+</style>
+<script id="progress_script_/vendor1.75c76dd867611f463d6c.js" type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/vendor1.75c76dd867611f463d6c.js"></script><script id="progress_script_/vendor2.35907600afb8d632a274.js" type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/vendor2.35907600afb8d632a274.js"></script><script id="progress_script_/app.fb670425a5a2af780dda.js" type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/app.fb670425a5a2af780dda.js"></script><script id="progress_script_/app2.597e2f8fca9ac351dfcc.js" type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/app2.597e2f8fca9ac351dfcc.js"></script><style id="asset-style" type="text/css"></style><script type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/svg.21a0cfb383dc0bcaa38b.js"></script><script type="text/javascript" charset="utf-8" async="" src="./WhatsApp-barcode_files/app2.597e2f8fca9ac351dfcc.js"></script></head>
+<body class="web" style="">
+<div id="app"><div class="_1FKgS app-wrapper-web os-mac bN4GZ"><span></span><div class="_2U_Zc"><div class="_2G3cZ"><span class="_3CSsZ"><svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39"><path fill="#00E676" d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"></path><path fill="#FFF" d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z"></path></svg></span><div class="_26w8r">WhatsApp Web</div></div><div class="_2NbD3"><div class="elDYX"><div class="dXU0Q"><div class="_2mVeK">To use WhatsApp on your computer:</div><ol class="_3oE3H"><li class="_2eNdO">Open WhatsApp on your phone</li><li class="_2eNdO"><span dir="ltr" class="selectable-text invisible-space copyable-text">Tap <strong><span dir="ltr" class="selectable-text invisible-space copyable-text">Menu <span class="_3CSsZ"><svg height="24px" viewBox="0 0 24 24" width="24px"><rect fill="#f2f2f2" height="24" rx="3" width="24"></rect><path d="m12 15.5c.825 0 1.5.675 1.5 1.5s-.675 1.5-1.5 1.5-1.5-.675-1.5-1.5.675-1.5 1.5-1.5zm0-2c-.825 0-1.5-.675-1.5-1.5s.675-1.5 1.5-1.5 1.5.675 1.5 1.5-.675 1.5-1.5 1.5zm0-5c-.825 0-1.5-.675-1.5-1.5s.675-1.5 1.5-1.5 1.5.675 1.5 1.5-.675 1.5-1.5 1.5z" fill="#818b90"></path></svg></span></span></strong> or <strong><span dir="ltr" class="selectable-text invisible-space copyable-text">Settings <span class="_3CSsZ"><svg width="24" height="24" viewBox="0 0 24 24"><rect fill="#F2F2F2" width="24" height="24" rx="3"></rect><path d="M9.34 8.694a4.164 4.164 0 0 0-1.606 3.289c0 1.338.63 2.528 1.61 3.292l-1.46 2.527a7.065 7.065 0 0 1-3.052-5.82c0-2.41 1.206-4.54 3.048-5.816l1.46 2.528zm6.713 2.859c-.217-2.079-1.992-3.739-4.148-3.739-.578 0-1.128.116-1.628.329L8.819 5.617a7.042 7.042 0 0 1 3.086-.704c3.76 0 6.834 2.958 7.059 6.64h-2.91zm-1.065.43a3.083 3.083 0 1 1-6.166 0 3.083 3.083 0 0 1 6.166 0zm-6.164 6.364l1.458-2.523a4.153 4.153 0 0 0 1.623.322 4.154 4.154 0 0 0 4.12-3.524h2.922a7.062 7.062 0 0 1-7.042 6.426c-1.105 0-2.15-.25-3.081-.7zm11.197-7.21a7.88 7.88 0 0 0-.404-1.824l.286-.12a.527.527 0 0 0-.403-.973l-.29.12a8.176 8.176 0 0 0-1.197-1.77l.231-.23a.526.526 0 1 0-.744-.744l-.234.234a8.17 8.17 0 0 0-1.775-1.18l.13-.31a.526.526 0 1 0-.972-.403l-.12.313a8.463 8.463 0 0 0-1.995-.405v-.35A.533.533 0 0 0 12 2.97a.533.533 0 0 0-.535.526v.338a8.02 8.02 0 0 0-2.173.416l-.13-.313a.526.526 0 0 0-.972.402l.129.311a8.171 8.171 0 0 0-1.775 1.18l-.235-.235a.526.526 0 0 0-.743.744l.23.231A8.175 8.175 0 0 0 4.6 8.34l-.29-.12a.526.526 0 0 0-.403.971l.285.122a7.882 7.882 0 0 0-.404 1.824h-.322a.533.533 0 0 0-.526.534c0 .29.235.535.526.535h.28c.02.831.166 1.624.418 2.378l-.257.1a.523.523 0 1 0 .402.968l.252-.105a8.17 8.17 0 0 0 1.191 1.797l-.187.187a.526.526 0 1 0 .744.743l.184-.183a8.173 8.173 0 0 0 1.792 1.208l-.096.231a.526.526 0 1 0 .972.403l.096-.23c.698.24 1.436.387 2.208.428v.243c0 .29.244.526.535.526.29 0 .534-.235.534-.526v-.253a8.012 8.012 0 0 0 2.03-.417l.09.229a.523.523 0 1 0 .967-.403l-.096-.231a8.172 8.172 0 0 0 1.792-1.208l.184.183a.526.526 0 1 0 .743-.744l-.187-.186a8.174 8.174 0 0 0 1.191-1.798l.252.104a.526.526 0 1 0 .403-.971l-.257-.095a8.074 8.074 0 0 0 .417-2.378h.281c.29 0 .526-.244.526-.535a.533.533 0 0 0-.526-.534h-.323z" fill="#818B90"></path></svg></span></span></strong> and select <strong>WhatsApp Web</strong></span></li><li class="_2eNdO">Point your phone to this screen to capture the code</li></ol></div><div class="XSdna"><div class="_2EZ_m" data-ref="1@o3Sp6z54LVBkCRpbRtXstELXLPfbsseXjbqx1K2/h6yQL4TG86MrdZl7,wb0EUdpw3sZvo0D3bnGvhqZJ9iRd+LDHUuTQULueml8=,fV5L6hPAuhsHDjHv8CL3EA==" style=""><span></span><div class="_1jjYO"><span class="_3CSsZ"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path fill="#FFF" d="M6.525 43.936a29.596 29.596 0 0 1-3.039-13.075C3.494 14.568 16.755 1.313 33.05 1.313c7.904.004 15.328 3.082 20.91 8.666 5.581 5.586 8.653 13.01 8.65 20.907-.007 16.294-13.266 29.549-29.558 29.549a29.648 29.648 0 0 1-12.508-2.771L1.391 62.687l5.134-18.751z"></path><path fill="#123033" d="M50.801 13.135c-4.739-4.742-11.039-7.354-17.752-7.357-13.837 0-25.094 11.253-25.099 25.085a25.039 25.039 0 0 0 3.349 12.541l-3.56 12.999 13.304-3.488a25.084 25.084 0 0 0 11.996 3.054h.011c13.83 0 25.088-11.256 25.095-25.087.002-6.703-2.607-13.005-7.344-17.747zM33.05 51.733h-.008a20.866 20.866 0 0 1-10.62-2.906l-.762-.452-7.894 2.07 2.108-7.694-.497-.789a20.802 20.802 0 0 1-3.189-11.097c.004-11.496 9.361-20.85 20.87-20.85a20.73 20.73 0 0 1 14.746 6.115 20.733 20.733 0 0 1 6.104 14.752c-.006 11.497-9.363 20.851-20.858 20.851z"></path><path fill="#123033" d="M25.429 19.26a8.65 8.65 0 0 0-1.028.011 2.352 2.352 0 0 0-.95.255c-.221.114-.427.277-.75.582-.305.288-.481.54-.668.782a6.974 6.974 0 0 0-1.443 4.291l.001.003a8.243 8.243 0 0 0 .844 3.607c1.043 2.307 2.763 4.746 5.035 7.008a24.676 24.676 0 0 0 1.657 1.6 24.145 24.145 0 0 0 9.814 5.229s.751.179 1.391.218c.021.001.04.003.061.003a9.207 9.207 0 0 0 1.422-.033 5.086 5.086 0 0 0 2.129-.59c.423-.225.623-.337.978-.561 0 0 .11-.072.319-.23.345-.257.558-.438.845-.736.211-.22.394-.479.534-.772.2-.417.401-1.213.481-1.874.061-.505.042-.781.036-.952-.011-.275-.238-.558-.487-.678l-1.486-.668s-2.222-.967-3.581-1.587a1.278 1.278 0 0 0-.452-.104c-.341-.021-.723.068-.966.324v-.004c-.013-.001-.182.145-2.031 2.385-.102.122-.341.387-.754.362a1.086 1.086 0 0 1-.185-.029 3.402 3.402 0 0 1-.49-.17c-.316-.134-.427-.185-.643-.278l-.013-.006a15.361 15.361 0 0 1-4.013-2.556 15.88 15.88 0 0 1-.927-.885c-1.074-1.041-1.953-2.148-2.607-3.24-.035-.06-.09-.146-.15-.242-.107-.174-.225-.381-.262-.523-.095-.376.157-.678.157-.678s.622-.68.911-1.05c.278-.356.518-.704.671-.952.301-.484.39-.982.238-1.37a216.767 216.767 0 0 0-2.219-5.215c-.156-.339-.598-.589-1.005-.636a6.284 6.284 0 0 0-.414-.041"></path></svg></span></div><canvas width="264" height="264" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEICAYAAACj9mr/AAAZLElEQVR4Xu2dbZIktw1Ed68g30MK+f5nUIQO4jOMo2XLP6QGe/NtGlW98+bvFEgwkUgCrI/++tPPv358ebO/f/3+21OP//HLP2srmeZ4TDDNc7KpOVaev4kZWWMbs63YpPNcjTOJzcPmqwLxHDoFglIqs1MgMry2r1YgBsQViB0qKhA7ONNZFAgFgnKnYqdAVGD8vw2iQCgQ/zdyfcvACsS3oHTdNQqEAnEd+758+aJAXAr/y8lHgWgH7qUnf7ngdOp7V9/a5xbpyTfBJZ0jjeOf1xPf6Fwbds27GFdjc+KAAgHYlJLjMUXTZnKZEE2BAAQA8XzHDe+BjAIB+NFMdlJ1KBAgaGWTlAMKxFIAHtOQnbLpXkoOK4jrY9aMP4mnAlGOwDsCSqoBYmMFUSYbGC7dJN6Rz7YYgBhk92jbKBAwcEUzBWLhfYdTu0AUt3ng1tzZKS+brRTBhrzzkvrc9IsKMY1PYnc1n2muxYeUJKAnIJskbPqmQMznBoTsEwdIzEhsUuFKkv9briWYEWzauaZADIgSEn4LUZJrmqQmZGuKtwIxv2lMcE549Oe1ZB4FQoEYuUYIlYpaU7hsMc6yQeKpQCgQCgTZjkMbW4wQsO8pe4gSpu7ZYngGkXLmdL0CAdEkyU5sUvcUCAUi5YwCcXgGnYJJkp3YTP6Rsa62oVhv2KXPB9Ckaq4lPTchZx1WEDBiW8mmQMAAhWYKRP69VJIDYVj+uJzM8+kPKQloV9sQcmzZKBAKRJVrW8lmBVEN2ziYAqFAVJmmQOQP0FQDUB5MgVAgqpRSIBSIiVDkISpCTg8pZw5+ijMIcsuySZrTAVHzFJ/4TBKqmbjt2BDfNnDzLgZhGjxZTauONgnJjkdImJKdzEHClvp1mqMdG+LbBm4KBGGaAnFELSX7BtFPzwAQCigQ7PZjE+sTz2wxht/zJMlGdglbjOeHeichIqJCqxiSiM9sCDfSDeKVr2nl/RhPgVAgXvHqb/9vEpckO7FRIFilokAoEArE8PW0GJiDgRUERJOUPakN2XFsMeaAWkHkZP80ApFDwywIoOTuwmRDRIWslAhRc52k9G7GhpzBEMyIz0QI083rsX6yHsI1wpu4xWg6RshBAG0G+nR4RrBpkoOsU4FgvXm6sRCBInwiNtW7GMQBYtMElCSOFQRLnA3BI3MQPjV5Q+YneUNsFIjhIJLsnlYQ8++MkuqOVJEKBJEBdqZkizHgZgVhBWEFAZ6D6GoXU7V0B2kG2grCCoJUnj9ci7ElBGSe9KSYVAPvaENIeLXNO+J82iRSbhL+b9qMLcamE+lcaRAkYbddaIqKsUnZv3u9AgGepJwS5GqyNxP3dODYnOdqzEg1QGxIm7srBc9nUyAUiJGHaaVGREWBuIMMzD4oEAqEArHAASuIRSFMdzZ3Kc8gruaAAqFAHJ+p3zi3aJ4NkHaB2FyduOQ8gdi8rUB8fHx8LOb2JVNtJc5pcU2BmOYhybZ1T7+5/vQ5mFfPrjTHI2NdkhTfOOlXBaL3mXIFIm9liKiRJCSbRDue35iTt7pMgRg+FnIHQqVlKUk2Kwj2ujWpiG6V+d/ojAKhQPxQdzGmxdxB8L8xJ291mQKhQCgQ4JNzVhC30rHvc4bsHsSm3bPaYjz/xSfPIL4vHxLrlQeltgJ6Z1Xf8C0VlFdEIXFLS3xybkL8Itg052mO9Spu6V0u9MEY6sQzuzY4zQelmutsVxCpbyQJyCFl6tfpNqMCMaO5FU8FAvSYJAkUiJzsCkSOGeVmurE+5rHFoGiHdrYY+XlCEzOyGzcr3+ZYIfX+d7kCAV66oWCndk2yp31+6uuf1xNSp75ZQVhBoO/+k7sIG0lIk23DN7JLegYxI0AEshnnrXgezyCaj1o3F0SCQ5O3ZUfW31xne35C9tSmuRG0xY7gOflAKqUWL19VhApEG+lhPEIoBeL52cQDYtIzkwRN2yJCJwXiy/lrxymozcRJ56bXKxAzB0iyExsFIm+ZrCBoxod2CoQCQQSK8Cak5h+XE8GtvovRXKgVRE4Bgj8pfZs2nkF0K29yDmMFkecasmgnaOpEe/70wPHhb2qjQCgQKc+P5RAabMmonaCp2+3502RXIPL+/4RZGv9X11dbjCY52mXPKyD++v92u0KwSX0+Xd8Ugq0dnPTmd8WMJHWzLSNCTG3GMwiSBFvETYmjQLADKrLjXB2baf4mNxUI0EsS0OjJ6tUkJOKZ+mwF0USM9flk1yeVEuHTlo0VBOAhCQ6YZjRp7oa2GDvnBkRs7mCjQIDMVSDmpx9TONvtny3G86+0ewZxYGabhAqEApFWcXeoBghvqw9KEfVuJi8BoOlzSprTGUy6E7+6/q6+kRbn1Vpb/ye+EQ5u2RBcFIgBtSY5ToFpCuTWwSYhWlOIm/NTzNI7PHeoIAhuCoQCMfJmQ7yIEBOiExvi21Y1QOYhGCgQCoQCscABK4iDPBElJmrXVFXi8137/NMJ9tXtD8GZcIPYEN8IB7dsCAZWEAu7x9VJqECQ1Dg/XOUZBMP0qRVRYjI9UeLm4ZkVRB61LW7knikQD8xWHpQi/RfZdZsJSohLbJrEbeNMfEt31uYctFKafNg4pD2tn/CZ4HmyUSCKP96rQLCXwlJSbwmhAmEFgT7DRXbJJtlIK7W1GxFsFIjnCGzFzArigAAhdNMmTY5TGb21s261f6T0byZVU9SbcSZjURtbDFsMyp2ndkQ8Uwe2hFCBsMWwxUiz88X1CkQP0GY1RL2qVhDklmGzjCSKT4JA5iEBSn0jO2vbJuVAG8sUs4e/RNSIDeF6ime7/VMghh/8JUATEWje5monOzkMTQmtQMwC1eQGFUIFQoEYeahA/Fg/C0iqHgVCgVAglg6qbTEGBJp9Ib3Nl5a+thj5j+CQktgWwxZj/LUlmoQbpS/1rXkOkQqrZxDdr1eTJ2PTmJ3OBojgEt6efLbFsMWwxbDFGDnw9aeff/149l9yoLFlk+7Sd9hZr656SP+7tRum8SQ7K+FA0y/SShH8mz4/xlIghgqCEKpt0zw3USDyz8E3k02BuMEDJ80kaCe7FUQz3eaxCM4bO7UCoUCMT+Td4c5LUzzJQdiOPLA7LwrEHB1bDFuM+JBSgcjlzgrCCsIK4sCBPKWYhS0Gw22yWvlobfvUOYWA3M9u+0yIm66zfT0pvclOmfrd9qsZGzLWnW0UiOEeuALRfegoFQGCP219SIKmd5jucOhN1qlAKBBvdwZhBdE9jD2JlwKhQCgQ4KDaCqJZEx7GImVP6ppnECli/7m+vVMzL/5u1faryUEy1p1trCCsIKwgrCBGDigQCoQCoUDMAjG9rEXKwbu+rEXW0rbZuP3XPvmfxiNrabcFaXzI/OSuCGkX0vOMx/UkBilmj+vHJynJYArEjNpWQAnZ0liTtZAEJfNsrP+UoArEgU0KhALRTFAFIv8mZir2r663gniFUOn/TbITl8gObouRC74VhBUEyc+1nrG5gysQCoQVBEr33MgKYi6Xm0K0IZCeQcA3MzcCnacmsyAlOREB8hAX8Y2h8NyKvFewNX9TILbW2eRN2+fq9yAUiPmzZoS45NC3mYgknhvi1UyoE17tZCN4prxp+6xADBEgRG8TV4HIK5g0oRSI85aiQCgQcdHR3qVSB9pCTHZ2soGQeVLBa8dGgVAg0vxEX86KJzkYKBDd171PsVEgFIg4d9u7VOqAArEoEB8fH09/OOeuJRTpGclaSBIQm6vXQ7Bp+vyOmKWC9ur6dgyarUz803uvFvvs/1crPgkAIS6xaSbb1ljNed4RM5IDJxvCT+IDyUMFYkCaEJfYNJNta6zmPO+IGUlOBeLGh0pEoQlxiU0z2bbGas7zjpgpEPBzY83ep5nUzbEeayQv5DR9uHosBaIrESSexANbDPAz7kTUFIiZnunDXVYQ7NufCsTwGbDm7kXGsoI4U1OByFP31hXE9Mk5Uo6QhZJ50hAQv6h4NH1rJtvkF3lZLF3jHa5vcyCtPNs4b60nflCqfRqrQORfDSItjgKRv25OhC0V9cccJAcUCBKdwaYNJgloM0EViJwcbQ5YQRQ/B79VrpMkzKnGFJ/4lu5GRLjapS/Bc8NGgWAo22IA3EgiKhAA6KKJAsHAVCAAbgoEAO1iEwWCBSB+1Jokx1Zw0r6QQTZbkXKd2JBqhGBD4kb4sbWe5jxN7qStJD3YJOtXIIqRJslObEigFQgm7EV6jEMpEOChp2ZgmrvayS+S7MRGgZijQGJNKqUNfja5QXlrBVGMNAkosVEgFAgihIQ3CoQCMSJAdtYt4pKWiSRIkR62GO8WgHbwSTVAbJo4b70sRbDeEigyD1lPKmpNbthiHBBo7moU6I2DKEJ0BWLvbcofSiCaCrk1VjtBtvxO5yHrTOfYup6I9x3WTwR/C9N0nlMMxjOIdJI7XE+IQwh69VrJOq/2Od09aaW2tU4FYgvp4jwkcRSIYgDAUAR/Emfg2tFEgWgjujAeIQ4h6MJSjlOQdV7tsxXEXSNwfvnQFgO8tXp1qBWInW87nOJsBXF1FoD5SeJYQQCgiyYEfxLnost/DPVpBGL65Nw7loSEbE3iEOISn6d5yFjkMLB9azSNQXt+glsa67bPJD8Jb8bXvYkDk00KZkqYP68ngaZzPbMj6yQ+k0CTdZJ5CAapb+1ka8aA5E0TM4LN8TanFURKz/l6EugmOclYVhDsC2FprEniEmaSeRQIgjSwSUlz6mXbiQuWs/YDQalvJAnIgSOJgRUEOPUniZOShiYbmafZSpFdn5T+ZJ1kno1YKxBzNAk2VhAkO4ANSQ4FIgeaJIEVBPvJSA8pc36OFgrEzotPCsRiBfHx8fFRzJF4KFLGppOcEnfrfjapFNJ1NnvmU8t2NZ5XY9mMCx2L5A3ZwC5/kpIsNAX1akL/aOcjV+OpQLB2QYEYlONqQisQ3dZDgVAg0O8VkrsLthh5P3u14CoQCoQCkfZRL64n5SURT2KTLlWBUCAUiDRrFIgyYvcejpzdkU1i5ZCSOEbuWxPQttoSsus1cSM7+9U+b6UowWbyrYlZ+3Yu8VmBWDrYbBKHJA5Jgqt9JuskNgQbkmzpZqRAkGiCd/HbRCeEavuQQveOPqdrpNcTbBQIivYTu2apfLplaIuxc0fiRI12rIs0HIdSIH4bsbHFsMWIE0eByIWYYGaLAbeHVPHb5X06/6nqIcQhsL2jz2SdxIZg8+lbDFIqNhNxSz1JoO+KDXmAiSQUsWm2f0RUCZ8In6/GhnDz5HP8472nwQighDhtEJ6tiRDqamwUiO4DRITPCsQBAQKoAjEDmmKjQCgQ7c3TCmLITysIshf2xI7OnorqYx5iQ/17ZtecX4E4BLQZNAWiieZeEpJkIzZNdJrzKxAKBPrRFtL+3TUJPKTMKzUaS1sMWwzKnciuuUsqEDcWCFJ6ExtyR4CQkNhEmfHfi8k8xGbyrVl6NqsR4hfhE7Ehcd7CpvnsRvU2JwGa2CgQ3b6dJOIUg60kIPMTUX1HbBQIcDu1SY5mEtCTcrIeK4jnv/zd3qSIeKUVCblt3RS7h7/xGQQBmthYQVhBkCQkotpMqubGokDAOxJpeUUEqhloK4juoVo7ngrEHB8riF/ykjQtFRUIBaLJmcdY6SZJ5kctBplIxe8GlJCDVEQb5TrhxhYHt9pcsh4SG3I+FVcQZDGEBMSm7Vs63lbPqECkkZkF+lTdKRDgkDIPDQuOAjEjrUDkLGzzKY0BqeBOq7SC+H3+DNZnP1RKyXnqWdskTGPTTtzmnQ8rCCuIt/z9DQXCCsIKwgpizAIFQoFQIBQIBWK4BZ3LAzsHs8X48uXrTz//+pEAvnXY0gzO1WMl+H7PtWn//+psojne1WMRXJvnI82xCJ/J+h82CsRQqTQJTYOT2rV9bo539Vgplm3xVCBIBJYetSaK2yQ0hCY2a/vcHO/qsWIwD08rPsZK16NAkAgAoE/KngZtaywITWzWXD9Jgi08yTpjMBWIPyCzxbDFGHOHJCK5wzI50BxLgSAIKBDVl17aB7hpSJsJbQXRvfPxti3Gx8fH07sY5D5rm6AbCZLuXiefyLsY6Rrb85OYEZ9JNdC0IT43sSECcQeb+GUt4jQ5JLxzQCffFIg5as1k38JZgQCPWisQcxJsEbcpUM0kIBsBwYzY3HnDaVbrJD9PNlYQA3PIecIWcRWI5x/5Od1FUSDYJwwVCAWC5E5sY4uRv53crgZIpaJAKBBxshMDBUKBiJ8ue9eSsFnik2Rrzu8ZBDtTSuN2h2oAVRDTy1qkB98ibrobNdeSEuPV9c0EJesk5yZtmwmjNM6vsE7/38SzLRDpWh7XKxBLX6gmwSHimc7TJPSpulMg8qpDgTiwuU2odGchiZMmJ73eCmJGLo0zjUFawZzmIbs0sSFrJfOM72I0k0qByHccQgASs6tjc1qnAjEfbBJ+KBC2GDFvFIi8grGCePGqa8rCq0lIdtZ0jfR6W4w8QZuYkQrmUwnE9LIWOVS7OhFJCUXIRtbZnIessxnP5lqosJL1tOd6Nl6zLSIHm23BGx+UIgEgidMMGkmcLbI35yHrbMazuZZm/B9jEd+aPigQhy8NKxDdw8iUbAT/dvvXvCNAEleByFu2E85WEODT6u1ETJPKCqIrxESIWjGjLQERQsJbBUKBGDmaVjCU7M0EJYnTnH8LM7JOBQLc5twCujmPFYQVRJNPthjlX+kiStwMqAKhQDT5hASiSUJy35iUfSRxyTzkjkDas55O5JtlLFk/uf1GYkM4SBKnGRuCZ9OmifPDr+r3IMhCtwJKfEttyFqayUbmT9f4uL7pM9k8yPxb6yTzNG0UiAOaBJxmcEiCErJbQeQfXyFxJrEh8zRtSA6ceGsFUYyOAsG+OZC2bFuJuzVPkYLH6i7F2RajGRn4FB8hoRWEFQQ5N1EgDncrylrwdDgrCCuIDZ6d5lhrMa5eKJmfnHoTVSVB2FgPEagtspGqh9g0d9b2AWrKAfIYfDrH43p0BkEmutpGgZh/L4LEhghhGgOSBEQIyVoUiMNtTkKoq21SchICPGzaZEurmObOagXBWNvkWhr/NgetIMDZBNnZGNVmq5SEZGdVIFjU0tiQWbY4qEAoEISfqFJKE4ckARHCdtWXrpMEgGDTnid+m5M4sGXTDNpWcEibY4uRn7UoEHml+rAYv2q9ldRknnawn/nQ3qWa4tXsWdtCuLFOIqptnqXrJDhv2ZywUSAGdBQIdhibJg5JXAVijg0RFQUCsFCBUCC2nnIlLWPTRoFQIMYDx/aOYwXx/DFwgvOWjQKhQCgQgANWEB5SjrSxxbDFUCAUCAWi/DMGthifpMXYuJVIT6NT37aqAVDFIpN0/W2cSW9Mbs1ONs31owAcXnBq+rbF25PPK7/uTYJwZxKSwBEMNhKE4ExsFIicAYRnzbbo+KBUUwlzaM6voKa+bQFN1kls0vVbQRCUzzYbrdQWb60gyj+OQwLXpKgCMX9RqokzEdat2JDqkoiaLcaANCnVtsi5RcKNh3GI2DbXT2NGki2dq40N8VmBUCBG3ioQc0qTZPsUAkFU7QTMBgnTwLy6vkkOcuBHYkB2XTJPWvo25yA8exXr5uEqnatlRzgQVxDtgCoQ86vLBJs0QUmfTQjbXEtzfjLWw6adB9SPxE6BSND6jmutIHLwFIgcs7aFAtFGdBhPgciBViByzNoWCkQbUQWihqgCUYMSD6RAYOgyQyuIDK/H1QpEjlnbQoFoI2oFUUNUgahBiQf69AJx9ckyCcAp2mmlQm6ZkvlPNk0M0vXTuwtEvFIbgkubz8SHH+o2ZxvQVKpJAEiCpuQ8lfhkfgUib5kIN9p8Jj4oEKkKHK4nASAJqkB0f927iSepeiYOKBDw8IoEtKgD41AKBPsKVZogJ5xJUhE+pTaEG2Qt7erOCqKoHIQEVhAzAmQ3JkmVJju5K0O4QdaiQMCqo6gDVhBLbZYCkf+CmAJRFoiN3YMGLU0QsuO0d7Z0vLbPKWb0zscU03T9p/lJK0XmP/Hz07cYCkT+8ZXm7VQFYn7xS4GA1QBJ6lTxSRJcTfb2/OnhIbmd2vbZCiIXfCsI0DMrEPnhoQLB7uI0Rc0WA1YdVhDPESCEIuJJqpE0Zu1+nhxsN/G0xYDJbouR/zgLSTaS1GmC2GJ4BnEUYpLsxCZNELJLXk329vwKRF5DpALZrnrI/NUziBwyZrGVoMQ7EoSt5CXrSYWArJ/4tYVZcx5ynkCwITbEt/g2J3GM2CgQ7MCLYK1A5A8kpVXslqie4q9AgB/IIQlFgt3cpYjPxIYQisyTCtRpjqtjczVmCgQ82GwS92oSNtfSJlTTty1Rbc6jQDQZcBjLFsMWo5m4RAhJpaJAKBDj9xW3SLgUgvG3H0gFRXxWIAhqsw0Rr/GQsutad7T0gIjMvvWQSjMJSNVFRI0IBCEnOZvY4EabT2Q8giexUSCG6CgQ7AGeNKmbYvOYW4HIv7Z1ioECoUCMGxjZcRSI5wgQIWxXdySeCoQCoUCQGj+0USBCwL7n8o0y0hbDFuN7OPpXWwWiieaLsRSI/GUtQlBSktpi2GIsSkEGNrkjMC3GCsIKokl0ItB3OIP4N+QjW5+jarccAAAAAElFTkSuQmCC" style="display: block;"></div></div><a href="https://faq.whatsapp.com/faq/web/28080003/" class="_1rQYj" target="_blank">Need help to get started?</a><div class="_2FvAY"><span></span><label><input type="checkbox" name="rememberMe">Keep me signed in</label></div></div><div class="_2l_cS"><div class="_3B3rJ"><span></span><video autoplay="" class="_2ZaTT" controls="" controlslist="nodownload"><source src="/assets/a0f99e8cbba9eaa747ec23ffb30d63fe.mp4" type="video/mp4"></video></div></div></div></div></div></div>
+
+
+
+<script src="./WhatsApp-barcode_files/progress.206184f7bfd5550c3b78cac23b427110.js"></script>
+
+<div id="hard_expire_time" data-time="1563393204.109"></div>
+
+
+
+</body></html>

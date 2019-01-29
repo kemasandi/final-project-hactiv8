@@ -1,0 +1,36 @@
+.header{
+    background-color: #1ebea5;
+    box-sizing: border-box;
+    color: #fff;
+    transition: background-color .5s ease;
+    width: 100%;
+}
+
+.navbar-item img{
+    background-size: auto 39px;
+    height: 39px;
+    width: 138px;
+}
+
+.navbar-end a{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    line-height: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-right: 60px;
+    &:hover{
+        background-color: transparent;
+        color: white;
+    }
+}
+
+@media (min-width: 1096px)
+{
+    .header {
+        height: 91px;
+    }
+}

@@ -1,0 +1,33 @@
+.faq-main-sec{
+    background-image: url("images/bg-subheader-clouds.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 265px;
+    h1{
+        color: #21c6ae;
+    }
+    .content{
+        width: 788px;
+        margin: auto;
+        text-align: center;
+        color: #21c6ae;
+    }
+    input{
+        border-radius: 40px;
+        margin-bottom: 1em;
+        &:focus, &:active{
+            border-color: #21c6ae;
+            box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+        }
+    }
+}
+
+.faq-ask{
+    h1{
+        color: #21c6ae;
+    }
+    .columns{
+        flex-wrap: wrap;
+    }
+}
