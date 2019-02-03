@@ -3,46 +3,17 @@ import axios from 'axios';
 export const getPeopleData = () => {
     return (dispatch) => {
         dispatch(getPeopleDataRequest())
-        // axios
-        //   .get("https://jsonplaceholder.typicode.com/users")
-        //   .then((respon) => {
-        //     dispatch(getPeopleDataSuccess(respon.data))
-        //   })
-        axios.all([
-            axios.get('https://jsonplaceholder.typicode.com/users'),
-            axios.get('https://jsonplaceholder.typicode.com/todos')
-          ])
-          .then(axios.spread((useres,todosres) => {
-                dispatch(getPeopleDataSuccess(useres.data,todosres))
-                console.log(todosres)
-              }))
-
-
+        axios
+          .get("https://jsonplaceholder.typicode.com/users")
+          .then((respon) => {
+            dispatch(getPeopleDataSuccess(respon.data))
+          })
           .catch(()=> {
             const error = 'gagal fetch data'
             dispatch(getPeopleDataError(error))
           })
     }
 }
-
-export const increment = () => ({
-    type: 'INC',
-})
-
-export const decrement = () => ({
-    type: 'DEC',
-})
-
-export const login = (payload) => ({
-    type: 'LOGIN',
-    payload,
-})
-
-
-export const modal = (payload) => ({
-    type: 'MODAL',
-    payload
-})
 
 export const getPeopleDataRequest = () => {
     return {

@@ -1,8 +1,4 @@
 const initialState = {
-    age: '',
-    number: 0,
-    isLogin: false,
-    name: '',
     people: [],
     todos: [],
     isLoading: false,
@@ -14,30 +10,6 @@ const initialState = {
 
 const Faq = (state = {...initialState}, action) => {
     switch (action.type) {
-        case 'INC': 
-        return {
-            ...state,
-            number: state.number + 1
-        }
-
-        case 'DEC': 
-        return {
-            ...state,
-            number: state.number - 1,
-        }
-
-        case 'LOGIN':
-        return{
-            ...state,
-            isLogin: action.payload,
-        }
-
-        case 'MODAL':
-        return{
-            ...state,
-            people: action.payload,
-            show: true
-        }
         
         case 'GET_PEOPLE_DATA_REQUEST':
         return{

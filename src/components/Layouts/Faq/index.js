@@ -4,14 +4,15 @@ import Footer from '../../Footer';
 import { Section, Title, Control, Input, Content, Container, Columns, Column } from 'bloomer';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { increment, login, getPeopleData } from '../../../redux/Faq/actions';
-import { Link, Router, Route } from 'react-router-dom';
+import { getPeopleData } from '../../../redux/Faq/actions';
+import { Link} from 'react-router-dom';
 import DetailInfo from './DetailInfo'
 
 
 class Faq extends Component {
     componentDidMount() {
         this.props.getPeopleData()
+        console.log(this.props.people)
     }
     render() {
         return (
@@ -55,15 +56,12 @@ class Faq extends Component {
 }
 
 const mapStatetoProps = (state) => ({
-    number: state.faq.number,
-    name: state.faq.name,
-    isLogin: state.faq.isLogin,
     people: state.faq.people,
     todos: state.faq.todos
 })
 
 const mapDispatchToProps = (dispatch) => bindActionCreators ({
-    increment, login, getPeopleData
+    getPeopleData
 }, dispatch)
 
 export default connect(mapStatetoProps,mapDispatchToProps)(Faq);

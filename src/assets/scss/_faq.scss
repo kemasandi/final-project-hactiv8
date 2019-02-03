@@ -24,10 +24,52 @@
 }
 
 .faq-ask{
+    .container{
+        background-color: white;
+        padding: 3em;
+    }
     h1{
         color: #21c6ae;
     }
     .columns{
         flex-wrap: wrap;
+        .column{
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1em;
+            &:nth-last-child(-n+3){
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.detail-info{
+    min-height: 400px;
+    padding: 3em;
+    margin: 0 0 5em 0;
+    border-radius: 3px;
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    ul{
+        list-style-type: none;
+        margin: 0;
+        li{
+            span{
+                width: 100px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .photos-grid{
+        display: inline-block;
+        padding: 1em;
+    }
+    
+}
+
+.breadcrumb{
+    margin-top: 2em;
+    li.is-active:before{
+        padding-right: 0.5em;
     }
 }
